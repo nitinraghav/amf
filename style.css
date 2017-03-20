@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 70px; /* it clears:both for navbar*/
+}
+
+/* navbar starts */
+.navbar {
+	background-color:  #337ab7 !important;
+}
+
+.navbar-header, .navbar-collapse{
+	background-color:  #337ab7 !important;
+}
+
+
+#myNavbar {
+	background-size:cover;
+}
+
+.navbar-brand {
+	font-size: 1.4em;
+	color: #fff !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 3vh ;
+}
+
+#logo{
+	width: 10vh;
+	height: 10vh;
+	margin-right:10vh;
+	float: left;
+	margin: 1vh;
+}
+
+.navbar-brand:hover {
+	text-decoration: underline;
+}
+
+.navbar-toggle {
+	float: left;
+	margin-left: 2vh;
+	margin-top: 3vh;
+}
+
+.nav a {
+  	font-size: 1.4em;
+	color: #fff !important;
+	text-align: center;
+	padding-top: 6vh;
+	margin-top: 3vh;
+}
+
+ul.nav a:hover {
+	text-decoration: underline;
+}
+ /*navbar ends*/
+
+ #english, #french, #separator {
+ 	font-size: 2.0em;
+ }
+
+#lang_selector>h1 {
+	margin: 8vh;
+}
+
+#form{
+	margin: 10vh 5vh;
+}
+
+#input{
+	margin-bottom: 3vh;
+}
+
+#search_btn {
+	height: 11vh;
+	font-size: 2em;
+	box-shadow: 2px 2px 2px #808080;
+}
+
+/*autocomplete starts*/
+#form {
+	margin: 2px 0px;
+	padding:40px;
+	border-radius:4px;
+}
+
+
+#company-list{
+	list-style:none;
+	width:77.5%;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -14vh;
+}
+
+#company-list li{
+	background: #f0f0f0; 
+	border-bottom: #bbb9b9 1px solid;
+	padding: 3vh;
+	font-size: 1.3em;
+}
+
+#company-list li:hover{
+	background:#ece3d2;
+	cursor: pointer;
+}
+
+
+
