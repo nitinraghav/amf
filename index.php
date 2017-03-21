@@ -9,10 +9,17 @@
 ?>	
 
 	<div class="wrapper">
-		<div id="lang_selector">
-			<h1>Select your language</h1>
-			<a href="lang.php?lang=E"  id="english">English </a> <span id="separator">|</span><a href="lang.php?lang=F" id="french"> French</a>
-			<h1>Choisissez votre langue</h1>
+		<div class ="row" id="lang_selector">
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<h1>Select your language</h1>
+			</div>
+
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<a href="lang.php?lang=E"  id="english">English </a> <span id="separator">|</span><a href="lang.php?lang=F" id="french"> French</a>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<h1>Choisissez votre langue</h1>
+			</div>
 		</div>
 	</div>
 
